@@ -1,0 +1,22 @@
+{
+  "name": "project-6---form-validation-using-formik-and-yup",
+  "version": "1.0.0",
+  "description": "This is my Sixth project for 100 days of projects",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "author": "Utsav Vanpariya",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "formik": "^2.2.9",
+    "yup": "^1.1.1",
+    "yup-password": "^0.2.2"
+  }
+}
