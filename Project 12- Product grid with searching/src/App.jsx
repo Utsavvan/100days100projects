@@ -1,44 +1,40 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect ,useLayoutEffect } from "react";
 import "./App.css";
 
 import { productApi } from "./Apis/ProductApi/ProductApi";
 
 import {NavLink} from 'react-router-dom';
 
+
 function App() {
   const [product, setProduct] = useState([]);
   const [search, setSearch] = useState("");
-
+  
   const [filtered, setFiltered] = useState([]);
-
-  const [brandNames, setBrandNames] = useState([]);
-
+  
   const limitOfPagination = 10;
-
+  
   const [start, setStart] = useState(0);
   const [end, setEnd] = useState(10);
+  
+  const brandNameMaping = [
+    ...new Set(
+      product.slice(0, 15).map((product) => {
+        return product.brand;
+      })
+    ),
+    "All",
+  ];
 
   useEffect(() => {
     getProductData();
   }, []);
-
-  const getBrandNames = () => {
-    const brandNameMaping = [
-      ...new Set(
-        product.slice(0, 15).map((product) => {
-          return product.brand;
-        })
-      ),
-      "All",
-    ];
-    setBrandNames(brandNameMaping);
-  };
+  
 
   async function getProductData() {
     const data = await productApi();
     setProduct(data.products);
     setFiltered(data.products);
-    getBrandNames();
   }
 
   function searchHandler() {
@@ -88,7 +84,7 @@ function App() {
       </div>
       <div className="container">filtering</div>
       <div>
-        {brandNames.map((brandName, i) => (
+        {brandNameMaping.map((brandName, i) => (
           <button
             key={i}
             onClick={() => {
@@ -106,7 +102,7 @@ function App() {
         <button onClick={descendingHandler}>Descending</button>
       </div>
 
-      <div className="fw grid">
+      <div className="fw grid main">
         {filtered.length !== 0
           ? filtered.slice(start, end).map((product) => (
               <>
@@ -120,7 +116,7 @@ function App() {
                     <b>{product.title}</b>
                     <b>$ {product.price}</b>
                   </div>
-                  <div className="fw">
+                  <div className="fw desc">
                     <p>{product.description}</p>
                   </div>
                 </NavLink>

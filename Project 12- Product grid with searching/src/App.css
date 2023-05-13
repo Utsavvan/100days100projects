@@ -20,6 +20,10 @@
   align-items: center;
 }
 
+.cntr_hor{
+  justify-content: center;
+}
+
 .cntr-left{
   align-items: flex-start;
 }
@@ -45,11 +49,16 @@ b{
   font-family: sans-serif;
 }
 .card{
-  width: 24%;
+  width: 18%;
   height: auto;
   min-height: 300px;
   background-color: #f2f2f2;
   border: 2px solid #bfbfbf;
+}
+
+.card:hover{
+  background-color:black;
+  color:white;
 }
 
 .img{
@@ -71,4 +80,14 @@ b{
   right:10px;
   background-color: #bfbfbf;
   top:10px;
+}
+
+a{
+  color :inherit ;
+  text-decoration: none;
+}
+
+
+.main{
+  justify-content: space-between;
 }
