@@ -1,0 +1,27 @@
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-title{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#228B22;
+}
+
+.content-desc {
+  width: 50%;
+  font-family: Arial;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  color:#333333;
+  border-radius: 5px ;
+}
+
+hr {
+    width: 500px;
+    color: #333333;
+}

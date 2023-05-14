@@ -1,0 +1,43 @@
+.feature-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-title {
+  color:#228b22;
+}
+
+.card {
+  width: 30%;
+  height:180px;
+  padding: 20px;
+  margin: 20px;
+  border: solid 1px hsl(0, 1%, 60%);
+  background-color: #006f2e;
+  border-radius: 22 6 22 6px;
+  color: #ccedd0;
+  font-family: Arial;
+  position: relative;
+}
+
+.card:hover {
+  box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.3);
+  background-color: hsl(145, 72%, 27%);
+  border-color: #333333;
+}
+
+.card .title {
+  font-size: 1.5rem;
+}
+
+.card hr {
+  margin-top: 10px;
+  width: 60px;
+  margin-left: 0;
+}
+
+.description p {
+  font-size: 1rem;
+  line-height: 1.5;
+}

@@ -1,0 +1,11 @@
+.web-title {
+    display: flex;
+    width: 90%;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(145, 54%, 41%);
+    color:aliceblue;
+    margin-left: 75px;
+    border-radius: 15px 50px;
+}
