@@ -1,0 +1,55 @@
+body{
+    background-color: #282c35;
+    color: white ;
+}
+
+.dark{
+    background-color: #282c35;
+    color: white ;
+}
+
+.light{
+    background-color: #fff;
+    color: black ;
+}
+
+.card-title{
+    color:hsl(340, 63%, 52%);
+}
+
+.card-title-dark{
+    color:hsl(340, 63%, 52%);
+}
+
+.dark-mode-btn {
+    background-color: #d23669;
+    color: inherit;
+    border:none;
+}
+
+.flex-cen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    display: flex;
+    position: relative;
+}
+
+.title {
+    left : 0px;
+    font-size: 2rem;
+}
+
+.dark-mode-btn{
+    position: absolute;
+    right : 0px;
+    width: 80px;
+    height: 25px;
+    border-radius: 5 5 5 5;
+}
+
+h3{
+    font-size: 2rem;
+}
