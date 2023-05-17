@@ -1,0 +1,40 @@
+.flex-cen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.range *{
+    margin-bottom: 10px;
+}
+
+body{
+    background-color:#e0e8ff;
+}
+
+h1{
+    background-color: blue;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.output-div{
+    width: 70px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 5 5 5 5;
+}
+
+.range{
+    background-color: white;
+}
+
+.output{
+    background-color: white;
+}
