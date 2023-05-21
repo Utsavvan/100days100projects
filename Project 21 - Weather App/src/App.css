@@ -1,0 +1,94 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.12/css/weather-icons.min.css);
+
+.flex-cen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 40%;
+  background-color: rgb(50, 49, 49);
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.searchbar {
+  margin: 15px;
+}
+
+.search-btn {
+  background-color: #1fadad;
+  color: white;
+  border: none;
+  width: auto;
+  height: 20px;
+}
+
+.weather-icon {
+  height: 120px;
+}
+
+.info-card {
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15 15 15 15;
+}
+
+.degree-info {
+  width: 100%;
+  height: 80px;
+}
+
+.city-info {
+  width: 70%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  padding: 0;
+}
+
+.section1 p:first-child{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.section2{
+    padding-left: 10px;
+    margin: 10px;
+}
+
+.section2 p{
+    padding: 5px;
+    margin:5px;
+}
+
+.time {
+  height: 100%;
+  background-color: #1fadad;
+  color: white;
+  display: table-cell;
+  text-align: center;
+  font-size: 1.7rem;
+}
+.additional-data{
+    width: 100%;
+    height: auto;
+}
+
+.data-card{
+    width: 25%;
+    padding: 15px;
+}
+
+.data-card .icon{
+    display: inline-block;
+    width: 50%;
+}
+
+.data-card .text{
+    display: inline-block;
+    width: 50%;
+}
