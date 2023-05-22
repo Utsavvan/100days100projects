@@ -1,0 +1,25 @@
+li{
+    list-style: none;
+}
+
+.flex{
+    display: flex;
+}
+
+.cen{
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon-list{
+    padding: 10px;
+    margin: 10px;
+    padding-left: 0;
+}
+
+.pokemon-list-item{
+    width: 100%;
+    padding: 10px;
+    background-color: aquamarine;
+    margin: 10px;
+}
