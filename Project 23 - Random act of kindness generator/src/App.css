@@ -1,0 +1,67 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+*{
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+.cen{
+    justify-content: center;
+    align-items: center;
+}
+
+.col{
+    flex-direction:column;
+}
+
+.card{
+    width: 500px;
+    margin: 0 auto;
+    color: #333;
+    background-image: linear-gradient(to right, rgb(94, 255, 201) , #65ecec);
+    padding:20px;
+    border-radius: 15 15 15 15px
+}
+
+.get-act-btn{
+    width: 100px;
+    height: 30px;
+}
+
+.get-act-btn button{
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+    background-color: aquamarine;
+    color: #265353;
+    border: 2px solid #4aaa98;
+    border-radius: 5 5 5 5px;
+}
+
+.get-act-btn button:hover{
+    background-color: rgb(94, 255, 201);
+    box-shadow: 3px 3px #265353;
+    transition: box-shadow 0.1s ease-in-out;
+}
+
+.card-title{
+    font-size: 1.2rem;
+}
+
+.card-content p {
+    padding: 5px;
+    text-align: center 
+}
+
+.card-content p::before{
+    content: open-quote;
+    font-size: 2rem;
+}
+
+.card-content p::after{
+    content: close-quote;
+    font-size: 2rem;
+}
