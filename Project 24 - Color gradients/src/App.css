@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#e4dcf9;
+}
+
+.flex{
+    display: flex;
+}
+
+.center{
+    align-items: center;
+    justify-content: center;
+}
+
+.cards{
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}

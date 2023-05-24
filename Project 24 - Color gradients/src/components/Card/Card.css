@@ -1,0 +1,25 @@
+.card {
+    width: auto;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+
+.card-content{
+    width: auto;
+    box-shadow: 0rem 0.5rem 1em rgba(0, 0, 0, 0.303);
+    border-radius: 10px;
+}
+
+.gradiant {
+  width: 200px;
+  height: 200px;
+  border-radius: 10 10 0 0;
+}
+
+.gradiant-colors {
+  background-color: white;
+  height: auto;
+  padding: 1em;
+  border-radius: 0 0 10 10;
+}
