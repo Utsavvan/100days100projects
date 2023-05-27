@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+.flex{
+    display:flex;
+    flex-direction: column;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion {
+    width: 35%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #0000ff;
+}
+
+.accordion-title{
+    text-align: center;
+    color:white;
+}
+
+.card{
+    margin: 10px;
+    padding:10px;
+    background-color: white ;
+    color: black ;
+}
+
+.icons{
+    float: right;
+}
