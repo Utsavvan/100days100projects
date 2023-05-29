@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    background-color: yellow ;
+}
+
+.flex{
+    display: flex;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+.activeStep{
+    transition-delay:0.5s;
+    border: 5px solid green;
+}
+
+.inactiveStep{
+    border: 5px solid lightgray;
+}
+
+.activeLine{
+    transition: 1.5s ;
+    background-color: green;
+}
+
+.inactiveLine{
+    transition: 1.5s ;
+    background-color: lightgray;
+}
+
+.steps{
+    padding:20px;
+    margin-top: 50px;
+}
+
+.step{
+    padding: 20px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+hr{
+    margin: 0;
+    width: 50px;
+    height: 3px;
+    border: none ;
+}
+
+.steps-btn .btn{
+    border:none;
+    background-color: #fff;
+}
+
+.fa-check{
+    color: green;
+}
+
+.fa-xmark{
+    color: lightgray;
+}
