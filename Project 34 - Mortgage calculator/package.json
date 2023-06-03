@@ -1,0 +1,19 @@
+{
+  "name": "project-34---mortgage-calculator",
+  "version": "1.0.0",
+  "description": "This is project number thirty four of 100 days of projects",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "author": "Utsav vanpariya",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.1",
+    "process": "^0.11.10"
+  }
+}
