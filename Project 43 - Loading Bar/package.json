@@ -1,0 +1,19 @@
+{
+  "name": "project-43---loading-bar",
+  "version": "1.0.0",
+  "description": "This is project number 43 of 100 days of project",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "author": "Utsav vanpariya",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
