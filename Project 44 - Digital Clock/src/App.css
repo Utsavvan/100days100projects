@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  color: white;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  flex-direction: row;
+}
+
+/* --------------------------- */
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1499002238440-d264edd596ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.hour-card,
+.minute-card,
+.second-card {
+  width: 100px;
+  height: 110px;
+  background-color: bisque;
+}
+
+.card {
+  position: relative;
+  margin: 10px;
+}
+
+.number {
+  height: 100%;
+  width: 100%;
+  font-size: 3rem;
+  background-color: hsl(248, 53%, 58%);
+}
+
+.number-title {
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  bottom: 0;
+  background-color: #32288fae;
+}
+
+.cards {
+  position: relative;
+}
+
+.ampm-card {
+  width: 50px;
+  height: 30px;
+  font-size: 1.4rem;
+  text-align: center;
+  background-color: #32901dc4;
+}
