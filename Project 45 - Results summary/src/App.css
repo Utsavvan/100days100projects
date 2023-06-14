@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+/* ----------------------- */
+
+.containers {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.score {
+  display: flex;
+}
+
+.card {
+  width: 250px;
+  height: 350px;
+}
+
+.card1 {
+  /* background-color: linear-gradient(#6643fe, #302bea); */
+  background-color: #302bea;
+  border-radius: 10px;
+  color: white;
+}
+
+.scoress {
+  width: 100%;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 20px;
+}
+
+.circle-score {
+  width: 120px;
+  height: 120px;
+  background-color: rgb(114, 198, 198);
+  border-radius: 50%;
+  padding: 20px;
+  background-color: #4a24cf;
+}
+
+.circle-score p:first-child {
+  font-weight: 700;
+  font-size: 2.2rem;
+  margin: 0;
+}
+
+.circle-score p:nth-child(2) {
+  margin: 0;
+  color: #6e5fed;
+}
+
+.score-type {
+  font-size: 1.6rem;
+  margin: 20px;
+}
+
+.score-stat {
+  text-align: center;
+  margin: 20px;
+  word-spacing: 2;
+}
+
+.score-stat p:first-child {
+  margin: 0;
+}
+
+.card2 {
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card2-title {
+  font-size: 1.2rem;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.scores {
+  position: relative;
+}
+
+.score {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 30px;
+  width: 200px;
+  margin: 10px;
+  padding: 20px;
+  margin-left: 0px;
+  border-radius: 5px;
+}
+
+.score p:nth-child(3) {
+  position: absolute;
+  right: 10px;
+  color: #a3adb2;
+  padding-right: 10px;
+}
+
+.score b:first-child {
+  color: #535b6b;
+}
+
+.score1 {
+  color: #c90e0e;
+  background-color: #fff6f5;
+}
+.score2 {
+  color: #f3be4c;
+  background-color: #fffbf2;
+}
+.score3 {
+  color: #217c71;
+  background-color: #f2fbfa;
+}
+.score4 {
+  color: #5757ff;
+  background-color: #f3f3fd;
+}
+
+.button {
+  width: 100%;
+}
+
+.next-btn {
+  width: 90%;
+  height: auto;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 25px;
+  background-color: #303a57;
+  color: white;
+}
