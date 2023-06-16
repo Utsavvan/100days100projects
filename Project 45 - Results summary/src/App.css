@@ -35,8 +35,9 @@
 }
 
 .card1 {
-  /* background-color: linear-gradient(#6643fe, #302bea); */
-  background-color: #302bea;
+  background-image: linear-gradient(#6643fe, #302bea);
+  /* background-color: #302bea; */
+  /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
   border-radius: 10px;
   color: white;
 }
@@ -58,6 +59,7 @@
   border-radius: 50%;
   padding: 20px;
   background-color: #4a24cf;
+  background-image: linear-gradient(#302bea, #6643fe);
 }
 
 .circle-score p:first-child {
@@ -68,7 +70,8 @@
 
 .circle-score p:nth-child(2) {
   margin: 0;
-  color: #6e5fed;
+  font-weight: 600;
+  color: #9084fd;
 }
 
 .score-type {
