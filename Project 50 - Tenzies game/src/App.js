@@ -7,7 +7,7 @@ import "./App.css";
 import TENZIES from "../assets/TENZIES.png";
 
 const App = () => {
-  const [playScreen, setPlayScreen] = useState(true);
+  const [playScreen, setPlayScreen] = useState(false);
   const [rollCounter, setRollCounter] = useState(0);
 
   const [freeze, setFreeze] = useState([]);
@@ -80,7 +80,7 @@ const App = () => {
     setRollCounter((prevValue) => {
       return prevValue + 1;
     });
-    setActive(false);
+    // setActive(false);
   }
 
   function handleNewGameBtn() {
