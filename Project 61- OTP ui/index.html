@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>OTP ui</title>
+  </head>
+  <body>
+    <div class="container flex center column">
+      <h1>Fill in your OTP</h1>
+      <div class="number-inputs flex">
+        <input
+          type="text"
+          pattern="[0-9]"
+          class="number"
+          data-id="1"
+          maxlength="1"
+          oninput="nextFocus(this)"
+        />
+        <input
+          type="text"
+          pattern="[0-9]"
+          class="number"
+          data-id="2"
+          maxlength="1"
+          oninput="nextFocus(this)"
+        />
+        <input
+          type="text"
+          pattern="[0-9]"
+          class="number"
+          data-id="3"
+          maxlength="1"
+          oninput="nextFocus(this)"
+        />
+        <input
+          type="text"
+          pattern="[0-9]"
+          class="number"
+          data-id="4"
+          maxlength="1"
+          oninput="nextFocus(this)"
+        />
+        <input
+          type="text"
+          pattern="[0-9]"
+          class="number"
+          data-id="5"
+          maxlength="1"
+          oninput="nextFocus(this)"
+        />
+        <input
+          type="text"
+          pattern="[0-9]"
+          class="number"
+          data-id="6"
+          maxlength="1"
+        />
+      </div>
+    </div>
+  </body>
+
+  <script src="./index.js"></script>
+</html>

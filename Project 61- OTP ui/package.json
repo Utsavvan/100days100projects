@@ -1,0 +1,11 @@
+{
+  "name": "project-61--otp-ui",
+  "version": "1.0.0",
+  "description": "This is a project number 61 of 100 days of projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Utsav vanpariya",
+  "license": "ISC"
+}
