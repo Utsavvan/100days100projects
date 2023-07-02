@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+.column{
+    flex-direction: column;
+}
+
+/* ------------------------------------ */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://source.unsplash.com/HN3-ehlNwsc/1920x1280");
+    background-size: cover;
+    background-position: center ;
+}
+
+.card{
+    width: 33%;
+    /* height: 57%; */
+    padding: 40px;
+    background-color: #0000007d;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title{
+    height: 60px;
+    margin: 16px 0;
+}
+
+.title h1 ,p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    letter-spacing: 1px;
+    color:white;
+}
+
+.title p {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.form-input label{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color:white;
+}
+
+.input{
+    background: rgba(0,0,0,0.5);
+    outline: none;
+    font-size: 1.2rem;
+    width: 100%;
+    height: 48px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.submit-btn button{
+    width: 30%;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
