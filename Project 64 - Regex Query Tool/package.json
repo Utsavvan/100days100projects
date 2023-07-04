@@ -1,0 +1,11 @@
+{
+  "name": "project-64---regex-query-tool",
+  "version": "1.0.0",
+  "description": "This is a Project number 64 of 100 days of projects",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Utsav vanpariya",
+  "license": "ISC"
+}
