@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+.center{
+    align-items: center;
+    justify-content: center;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+/* ----------- */
+
+.game-boxs{
+    width: 180px;
+}
+
+.game-box{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    color: black ;
+    margin: 5px;
+}
