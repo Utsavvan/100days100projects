@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-speech-recognition": "^3.10.0"
+  },
+  "name": "project-74---speech-recognition",
+  "version": "1.0.0",
+  "description": "This is project number 74 of 100 days of projects.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "author": "Utsav vanpariya",
+  "license": "ISC"
+}
