@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #111927;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+/* ------------------------------------- */
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.heading h1 {
+  letter-spacing: 1px;
+}
+
+.heading p {
+  color: rgb(108, 115, 127);
+}
+
+.switch {
+  width: 40px;
+  height: 15px;
+  background-color: #acaef5;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  background-color: #6366f1;
+  border-radius: 50%;
+}
+
+.checked {
+  justify-content: flex-end;
+}
+
+.discount-tag {
+  width: fit-content;
+  height: 25px;
+  font-size: 12px;
+  background-color: #6366f1;
+  color: white;
+  font-weight: 600;
+  padding: 4px;
+  border-radius: 12px;
+}
