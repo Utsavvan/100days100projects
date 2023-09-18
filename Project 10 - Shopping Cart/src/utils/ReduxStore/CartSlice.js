@@ -9,17 +9,20 @@ const cartSlice = createSlice({
         name: "samsung",
         price: 100,
         count: 1,
-      },{
+      },
+      {
         id: 2,
         name: "motorola",
         price: 200,
         count: 5,
-      },{
+      },
+      {
         id: 3,
         name: "iphone",
         price: 500,
         count: 6,
-      },{
+      },
+      {
         id: 4,
         name: "oneplus",
         price: 250,
@@ -35,7 +38,10 @@ const cartSlice = createSlice({
       const updatedItems = state.items.filter((items) => {
         return items.id !== action.payload;
       });
-      console.log("🚀 ~ file: CartSlice.js:23 ~ updatedItems ~ updatedItems:", updatedItems)
+      console.log(
+        "🚀 ~ file: CartSlice.js:23 ~ updatedItems ~ updatedItems:",
+        updatedItems
+      );
       return { ...state.items, items: updatedItems };
     },
     plusItem: (state, action) => {
@@ -50,15 +56,17 @@ const cartSlice = createSlice({
       return { ...state, items: updatedItems };
     },
     minusItem: (state, action) => {
-      const updatedItems = state.items.map((item, i) => {
-        if (item.id === action.payload) {
-          count = item.count;
-          return { ...item, count: count - 1 };
-        }
-        return item;
-      }).filter(item => {
-        return item.count !== 0 ;
-      })
+      const updatedItems = state.items
+        .map((item, i) => {
+          if (item.id === action.payload) {
+            count = item.count;
+            return { ...item, count: count - 1 };
+          }
+          return item;
+        })
+        .filter((item) => {
+          return item.count !== 0;
+        });
 
       return { ...state, items: updatedItems };
     },
@@ -68,6 +76,7 @@ const cartSlice = createSlice({
   },
 });
 
-export const { addItem, plusItem, minusItem, clearCart ,removeItem } = cartSlice.actions;
+export const { addItem, plusItem, minusItem, clearCart, removeItem } =
+  cartSlice.actions;
 
 export default cartSlice.reducer;
