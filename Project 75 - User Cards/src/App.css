@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Public Sans, sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.column {
+  flex-direction: column;
+}
+
+/* -------------------------------------------- */
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.user-cards {
+  width: 80%;
+  height: 100%;
+}
+
+.user-card {
+  width: 30%;
+  margin: 20px;
+  height: fit-content;
+  box-shadow: 4px 5px 20px #0000006b;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .user-card {
+    width: 80%;
+  }
+}
+
+.box-image {
+  width: 100%;
+  height: 30%;
+}
+
+.box-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.user-details {
+  width: 100%;
+  height: 70%;
+  margin-top: -35px;
+}
+
+.user-creds {
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.user-image {
+  width: 20%;
+}
+
+.user-image img {
+  width: 100%;
+  border-radius: 100%;
+  border: 10px solid white;
+}
+
+.emp {
+  margin: 4px;
+}
+
+.emp-name {
+  color: rgb(21, 21, 21);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.emp-designation {
+  color: rgb(123, 123, 123);
+  font-size: 16px;
+}
+
+.social-handles i {
+  margin: 8px;
+  font-size: 1.2rem;
+}
+
+.user-followings {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.followers {
+  width: 30%;
+}
+
+.followers .title {
+  font-size: 12px;
+  color: rgb(123, 123, 123);
+  margin-bottom: 8px;
+}
+
+.followers .counter {
+  font-weight: 500;
+  font-size: 20px;
+}
